@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/start"
+        android:orderInCategory="100"
+        android:title="新游戏"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/undo"
+        android:orderInCategory="100"
+        android:title="悔棋"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/newRoom"
+        android:orderInCategory="100"
+        android:title="创建房间"
+        app:showAsAction="never"></item>
+    <item
+        android:id="@+id/joinRoom"
+        android:orderInCategory="100"
+        android:title="加入房间"
+        app:showAsAction="never">
+    </item>
+</menu>
